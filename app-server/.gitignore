@@ -1,0 +1,13 @@
+
+// NPM
+node_modules
+package-lock.json
+
+// Certs
+mastercard-root-ca-corp-g2.cer
+
+// IDEs
+.vscode
+
+// Service accounts
+server/config/firebase/*

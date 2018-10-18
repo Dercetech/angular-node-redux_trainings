@@ -1,6 +1,6 @@
 # Sandbox: User interface
 
-Sandbox version: 0.1.
+Sandbox version: 0.2
 
 ## Specific sandbox
 
