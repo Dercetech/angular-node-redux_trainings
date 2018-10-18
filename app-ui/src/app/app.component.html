@@ -1,0 +1,18 @@
+<mat-card>
+    <h1 fxLayout="row">
+        <div fxFlex="0 1 auto">Jem's sandbox template</div>
+        <div fxFlex="1 0 auto"></div>
+        <div fxFlex="0 1 auto">
+            <mat-icon>videogame_asset</mat-icon>
+        </div>
+    </h1>
+    <div fxLayout="row">
+
+    </div>
+    <mat-tab-group (selectedTabChange)="onTabChange($event)"
+                   [selectedIndex]="selectedTab$ | async">
+        <mat-tab label="dummy feature"></mat-tab>
+    </mat-tab-group>
+
+    <router-outlet></router-outlet>
+</mat-card>

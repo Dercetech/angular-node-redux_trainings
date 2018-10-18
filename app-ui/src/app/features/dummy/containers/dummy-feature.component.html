@@ -1,0 +1,5 @@
+<h2>
+    Hello, dummy feature! {{ (isProcessing$ | async) ? 'Processing.' : '' }}
+</h2>
+<h3 *ngIf="!(isCool$ | async)">It's not cool</h3>
+<h3 *ngIf="(isCool$ | async)">It's cool!</h3>
